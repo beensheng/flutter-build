@@ -1,0 +1,7 @@
+{
+    "userInfo" : {
+      "method" : "get",
+      "apiUrl" : "https://www.baidu.com/{id}",
+      "params" : null
+    }
+}
