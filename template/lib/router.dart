@@ -19,7 +19,7 @@ const Map<String, StructRouter> routerMapping = {
 };
 
 /// 处理APP内的跳转
-class Router {
+class CommonRouter {
   /// 执行页面跳转
   ///
   /// 需要特别注意以下逻辑

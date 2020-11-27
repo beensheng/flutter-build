@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
               theme: ThemeData(
                 primarySwatch: Colors.blue, // APP 主题
               ),
-              routes: Router().registerRouter(),
+              routes: CommonRouter().registerRouter(),
               home: Entrance()),
         ),
         builder: (BuildContext context, AsyncSnapshot<Widget> snapshot) {

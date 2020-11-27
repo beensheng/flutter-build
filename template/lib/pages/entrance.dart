@@ -35,7 +35,7 @@ class _EntranceState extends State<Entrance>
 
   UniLinksType _type = UniLinksType.string;
   StreamSubscription _sub;
-  Router router = Router();
+  CommonRouter router = CommonRouter();
 
   @override
   void initState() {
